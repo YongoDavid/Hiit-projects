@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.notice{
+    background-color: rgb(215, 215, 83);
+    margin: 20px;
+    padding: 20px;
+}
+
+.note {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 900;
+}
+
+h1  , h3  , p{
+    margin: 10px;
+}

@@ -1,0 +1,52 @@
+.Main{
+    position: relative;
+}
+
+.Main h3{
+    top: 5px;
+    position: absolute;
+    z-index: 1;
+    color: white;
+}
+
+/* Desendant selector */
+h4 p{
+    background-color: aqua;
+}
+
+/* child selector */
+h4 > p{
+    color: blue;
+}
+button{
+    padding: 20px;
+    background-color: aquamarine;
+    border: none;
+    cursor: pointer;
+}
+/* pseudo class */
+button:hover{
+    background-color: red;
+}
+
+/* attribute selector */
+a[href="https://www.youtube.com"]{
+  color: rgb(255, 0, 0);
+}
+a[href="https://www.instagram.com"]{
+  color: purple;
+}
+a[href="https://www.facebook.com"]{
+    color: blue;
+}
+a[href="https://github.com"]{
+    color: black;
+}
+/* important */
+h1 {
+    background-color: brown !important;
+}
+
+button{
+    padding: 20px;
+}

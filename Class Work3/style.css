@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ /* the nav area  */
+nav{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    /* color: white; */
+    background-color: black;
+    text-align: center;
+}
+.nav-left{
+    display: flex;
+    margin-right: 25%;
+    align-items: center;
+    color: #FFF;
+}
+.nav-right{
+    display: flex;
+    margin-left: 9%;
+    color: #FFF;
+}
+.nav-right i{
+    padding-right: 10px;
+}
+nav ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 15%;
+}
+nav a{
+padding-left: 19px;
+text-decoration: none;
+color: black;
+text-align: center;
+color: #adaeb2;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+/* Main content  */
+#Maincontent{
+    position: relative;
+    background-color: black;
+    padding: 100px;
+}
+.content{
+    margin-top: 40px;
+  display: flex;  
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.Maincontent-right{
+    justify-content: center;
+}
+.Maincontent-left{
+    justify-content: center;
+    margin-right: 13%;
+}
+.Maincontent-left h1{
+margin-bottom: 10px;
+color: #ffffff;
+font-family: Poppins;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: 125.5%; /* 80.32px */
+}
+.Maincontent-left p{
+margin-right: 60px;
+color: #8B8E99;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 125.5%; /* 20.08px */
+}
+.Maincontent-left > p{
+    margin-bottom: 15px;
+}
+/* main content left button  */
+.Maincontent-btn{
+    margin-top: 10px;
+    background-color: white;
+    width: 350px;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    /* border: solid; */
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+}
+.Maincontent-btn i {
+ margin-right: 40px;
+}
+
+.Maincontent-btn a{
+border-style: none;
+border-radius: 10px;
+/* padding: px; */
+width: 70px;
+/* padding-left: 15%; */
+/* padding-right: 15%; */
+border: none;
+background-color: blue;
+text-decoration: none;
+padding: 10px;
+color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 125.5%; /* 22.59px */
+}
+
+/* First Watch row  */
+#Watch-row1{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.the-watch{
+    margin-right: 1%;
+    align-items: center;
+    display: flex;
+    /* border-style: solid; */
+    padding: 25px;
+    border-radius: 22px;
+background: #F6F6F6;
+}
+.the-watch p{
+margin-left: 13px;
+color: #8B8E99;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+#Watch-Comments{
+    margin-top: 8%;
+    text-align: center;
+}
+#Watch-Comments p{
+color: #3858D6;
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+#Watch-Comments h3{
+color: #1E1D1D;
+text-align: center;
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+/* ANOTHER WATCH SECTION  */
+#Watch-section{
+ margin-left: auto;
+ margin-right: auto;
+}
+.watch-section1{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.watch-section2{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.watch-individual{
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.watch-individual img{
+    background-color:  #F6F6F6;
+    padding: 10px;
+}
+
+/* WATCH SECTION BUTTON  */
+#watch-sectionbtn{
+    margin-top: 30px;
+    text-align: center;
+}
+#watch-sectionbtn button{
+    border-radius: 15px;
+background-color: #3858D6;
+border: none;
+padding: 10px;
+padding-left: 40px;
+padding-right: 40px;
+color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+/* ABOUT US SECTION   */
+
+#whatpeoplesay{
+    margin-top: 6%;
+    text-align: center;
+}
+#whatpeoplesay p{
+color: #3858D6;
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+#whatpeoplesay{
+color: #1E1D1D;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+/* Comments section  */
+#Comments-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.profile1{
+    border-radius: 22px;
+background: #F6F6F6;
+    margin-left: 50px;
+    text-align: center;
+    display: flex;
+   align-items: center;
+ display: inline-block;
+ padding: 15px;
+}
+.profile1 h4{
+color: #1E1D1D;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.profile1 p{
+color: #8B8E99;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+/* NEWSLETTER SECTION */
+#Newsletter{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.Newsletter-left{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#Newsletterbtn{
+    border: solid;
+    display: flex;
+}
